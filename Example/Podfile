@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'TKDataStorage_Example' do
+  pod 'TKDataStorage', :path => '../'
+
+  target 'TKDataStorage_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end

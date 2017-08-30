@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TKDataStorage'
-  s.version          = '0.0.1'
+  s.version          = '0.0.11'
   s.summary          = '数据存储'
 
 # This description is used to generate tags and improve search results.

@@ -1,3 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/myiOSComponent/myRepo.git'
+platform :ios, '8.0'
+inhibit_all_warnings!
 use_frameworks!
 
 target 'TKDataStorage_Example' do
@@ -7,6 +11,7 @@ target 'TKDataStorage_Example' do
     inherit! :search_paths
 
     pod 'Kiwi'
-  pod 'FBSnapshotTestCase'
+    pod 'FBSnapshotTestCase'
+    pod 'TKModelMapping', '~> 0.0.12'
   end
 end

@@ -19,10 +19,13 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A385C64598A15744F28A5062 /* Pods_TKDataStorage_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F4969B325628574C16677A /* Pods_TKDataStorage_Example.framework */; };
+		A72134021F55362C00AB01BB /* TKFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A72134011F55362C00AB01BB /* TKFileTests.m */; };
+		A74712291F55494A00A60AFB /* TKBasicDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74712281F55494A00A60AFB /* TKBasicDataTests.m */; };
+		A747122C1F55515B00A60AFB /* TKSqliteStorageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A747122B1F55515B00A60AFB /* TKSqliteStorageTests.m */; };
+		A747122F1F55517200A60AFB /* TKTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A747122E1F55517200A60AFB /* TKTestObject.m */; };
 		E1804A746EEEA33DDD8A6AF5 /* Pods_TKDataStorage_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7EBBCFA9F451BFAF49F3C1 /* Pods_TKDataStorage_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		1F5E75144E60717B5F547D9F /* Pods-TKDataStorage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKDataStorage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKDataStorage_Tests/Pods-TKDataStorage_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		25236A906EB6CFC26F7E4B90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		25236A906EB6CFC26F7E4B90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2A7EBBCFA9F451BFAF49F3C1 /* Pods_TKDataStorage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKDataStorage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E368950EFA9F8D62B67B4E0 /* Pods-TKDataStorage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKDataStorage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKDataStorage_Tests/Pods-TKDataStorage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A3AC41BB6FA9C32E63F05A0 /* Pods-TKDataStorage_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKDataStorage_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TKDataStorage_Example/Pods-TKDataStorage_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,14 +62,18 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AF17382C296CC4F6791B574 /* Pods-TKDataStorage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKDataStorage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TKDataStorage_Example/Pods-TKDataStorage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C510D69BAAFB417329CD29B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A72134011F55362C00AB01BB /* TKFileTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKFileTests.m; sourceTree = "<group>"; };
+		A74712281F55494A00A60AFB /* TKBasicDataTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKBasicDataTests.m; sourceTree = "<group>"; };
+		A747122B1F55515B00A60AFB /* TKSqliteStorageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKSqliteStorageTests.m; sourceTree = "<group>"; };
+		A747122D1F55517200A60AFB /* TKTestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKTestObject.h; sourceTree = "<group>"; };
+		A747122E1F55517200A60AFB /* TKTestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKTestObject.m; sourceTree = "<group>"; };
+		C510D69BAAFB417329CD29B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F2F4969B325628574C16677A /* Pods_TKDataStorage_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKDataStorage_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F457FD2742108C5DC7E0CB57 /* TKDataStorage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TKDataStorage.podspec; path = ../TKDataStorage.podspec; sourceTree = "<group>"; };
+		F457FD2742108C5DC7E0CB57 /* TKDataStorage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKDataStorage.podspec; path = ../TKDataStorage.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +166,12 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
+				A72134011F55362C00AB01BB /* TKFileTests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				A74712281F55494A00A60AFB /* TKBasicDataTests.m */,
+				A747122B1F55515B00A60AFB /* TKSqliteStorageTests.m */,
+				A747122D1F55517200A60AFB /* TKTestObject.h */,
+				A747122E1F55517200A60AFB /* TKTestObject.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -306,11 +317,13 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-TKDataStorage_Tests/Pods-TKDataStorage_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 				"${BUILT_PRODUCTS_DIR}/Kiwi/Kiwi.framework",
+				"${BUILT_PRODUCTS_DIR}/TKModelMapping/TKModelMapping.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kiwi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKModelMapping.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -373,10 +386,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TKDataStorage_Example/Pods-TKDataStorage_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TKDataStorage/TKDataStorage.framework",
+				"${BUILT_PRODUCTS_DIR}/TKMiddleware/TKMiddleware.framework",
+				"${BUILT_PRODUCTS_DIR}/TKModelCategory/TKModelCategory.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKDataStorage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKMiddleware.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKModelCategory.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -418,7 +435,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				A747122C1F55515B00A60AFB /* TKSqliteStorageTests.m in Sources */,
+				A72134021F55362C00AB01BB /* TKFileTests.m in Sources */,
+				A74712291F55494A00A60AFB /* TKBasicDataTests.m in Sources */,
+				A747122F1F55517200A60AFB /* TKTestObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +588,7 @@
 			baseConfigurationReference = 3E368950EFA9F8D62B67B4E0 /* Pods-TKDataStorage_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -592,6 +613,7 @@
 			baseConfigurationReference = 1F5E75144E60717B5F547D9F /* Pods-TKDataStorage_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -1,0 +1,35 @@
+{
+  "name": "TKDataStorage",
+  "version": "0.0.1",
+  "summary": "数据存储",
+  "description": "基本的数据存储，包括基本的文件写入，iOS安全数据存储，文件操作，sqlite数据库操作.",
+  "homepage": "https://github.com/ThinkWind",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "512869343@qq.com": "512869343@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/myiOSComponent/TKModelCategory.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "pod_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "user_target_xcconfig": {
+    "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
+  },
+  "source_files": "TKDataStorage/Classes/**/*",
+  "frameworks": "Security",
+  "libraries": "sqlite3",
+  "dependencies": {
+    "TKModelCategory": [
+      "~> 0.0.13"
+    ]
+  }
+}

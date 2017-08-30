@@ -1,0 +1,40 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - TKDataStorage (0.0.1):
+    - TKModelCategory (~> 0.0.13)
+  - TKMiddleware (0.0.1)
+  - TKModelCategory (0.0.13):
+    - TKMiddleware (~> 0.0.1)
+  - TKModelMapping (0.0.12):
+    - TKModelMapping/Model (= 0.0.12)
+    - TKModelMapping/Targets (= 0.0.12)
+  - TKModelMapping/Model (0.0.12)
+  - TKModelMapping/Targets (0.0.12):
+    - TKModelMapping/Model
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - TKDataStorage (from `../`)
+  - TKModelMapping (~> 0.0.12)
+
+EXTERNAL SOURCES:
+  TKDataStorage:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  TKDataStorage: b13f8d6b5bb5111e661e2718636dac46f11f044f
+  TKMiddleware: e4152543d955825c3a8a6f68eaefbfebca2292c7
+  TKModelCategory: 400d84670bcff8ed3261ebbf1516ee30233aaed6
+  TKModelMapping: 38a811376e53f9ab873c84d7553f38ad01ffda07
+
+PODFILE CHECKSUM: 1813108e2f5ab7d5fb21a56e6871367b04a5b851
+
+COCOAPODS: 1.3.1

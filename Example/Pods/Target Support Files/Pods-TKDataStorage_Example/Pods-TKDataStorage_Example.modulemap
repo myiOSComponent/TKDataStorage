@@ -1,0 +1,6 @@
+framework module Pods_TKDataStorage_Example {
+  umbrella header "Pods-TKDataStorage_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

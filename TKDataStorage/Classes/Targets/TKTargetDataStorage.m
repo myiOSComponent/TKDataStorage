@@ -218,7 +218,7 @@ static NSString* const kDataStorageHander = @"storageHander";
 - (BOOL)tkAction_findOrCreateDirectoryPathBackupProtection:(NSDictionary *)params
 {
     NSString* path = params[kDataStorageFolder];
-    BOOL backup = params[kDataStorageBackup];
+    BOOL backup = [params[kDataStorageBackup] boolValue];
     NSString* dataProtection = params[kDataStorageDataProtection];
     return [NSFileManager findOrCreateDirectoryPath:path
                                              backup:backup
